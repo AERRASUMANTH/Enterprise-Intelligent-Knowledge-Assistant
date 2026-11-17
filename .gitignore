@@ -1,0 +1,47 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+*.pem
+*.key
+*.pfx
+credentials*.json
+token*.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local ChromaDB data (generated from your own documents; rebuilt by uploading)
+chroma_data/
+chroma_db/
+*.sqlite3
+
+# Local document uploads / datasets
+uploads/
+data/
+
+# Temporary files
+*.tmp
+*.log
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
